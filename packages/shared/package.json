@@ -41,12 +41,12 @@
   "dependencies": {
     "@mayank1513/fork-me": "^2.1.3",
     "@repo/scripts": "workspace:*",
+    "esbuild-plugin-peggy": "workspace:*",
     "esbuild-raw-plugin": "^0.2.0",
     "nextjs-darkmode": "^1.0.10",
     "nextjs-themes": "^4.0.6",
     "r18gs": "^3.0.1",
     "react-live": "^4.1.8",
-    "react18-loaders": "latest",
-    "esbuild-plugin-peggy": "workspace:*"
+    "react18-loaders": "^1.1.4"
   }
 }
