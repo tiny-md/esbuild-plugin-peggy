@@ -28,14 +28,14 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.14.1",
-    "@vitest/coverage-v8": "^3.1.1",
+    "@vitest/coverage-v8": "^3.1.2",
     "esbuild": "^0.25.2",
     "esbuild-plugin-rdi": "^0.0.0",
     "esbuild-plugin-react18": "0.2.6",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.1.1"
+    "vitest": "^3.1.2"
   },
   "dependencies": {
     "peggy": "^4.2.0"
