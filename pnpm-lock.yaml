@@ -135,8 +135,8 @@ importers:
   lib:
     dependencies:
       peggy:
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^5.0.2
+        version: 5.0.2
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -2585,8 +2585,8 @@ packages:
     resolution: {integrity: sha512-vE7JKRyES09KiunauX7nd2Q9/L7lhok4smP9RZTDeD4MVs72Dp2qNFVz39Nz5a0FVEW0BJR6C0DYrq6unoziZA==}
     engines: {node: '>= 14.16'}
 
-  peggy@5.0.0:
-    resolution: {integrity: sha512-f91rDGRveINCxwVGCTavT4ACjToNn1mjjrI3LZVvTWqkEW5k5+G/h/iS0G81q+0uANCWqlrc8jFadRVOBHimEA==}
+  peggy@5.0.2:
+    resolution: {integrity: sha512-s7cQVFZ845bskMM60L3pjWv/6QkC0dZeWd/qrj9g7vvjjS/gkHLTA4Bzs6dxIBezDPdD+WUjoEKgiH7OJA3JAw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -5933,7 +5933,7 @@ snapshots:
 
   pathval@2.0.0: {}
 
-  peggy@5.0.0:
+  peggy@5.0.2:
     dependencies:
       '@peggyjs/from-mem': 2.0.0
       commander: 13.1.0
