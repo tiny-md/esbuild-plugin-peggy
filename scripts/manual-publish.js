@@ -111,6 +111,13 @@ execSync(publishCmd + reTag);
 
 /** Create GitHub release */
 execSync(
-  `gh release create ${NEW_VERSION} --generate-notes${isLatestRelease ? " --latest" : ""} -n "$(sed '1,/^## /d;/^## /,$d' CHANGELOG.md)" --title "Release v${NEW_VERSION}"`,
+  `gh release create ${NEW_VERSION} --generate-notes${isLatestRelease ? " --latest" : ""} -n "$(sed '1,/^## /d;/^## /,$d' lib/CHANGELOG.md)" --title "Release v${NEW_VERSION}"`,
 );
-
+
+try {
+  // Publish canonical packages
+  execSync("node scripts/publish-canonical.js");
+} catch {
+  console.error("Failed to publish canonical packages");
+}
+
