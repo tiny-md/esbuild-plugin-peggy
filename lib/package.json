@@ -29,7 +29,7 @@
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^24.7.2",
     "@vitest/coverage-v8": "^3.2.4",
-    "esbuild": "^0.25.10",
+    "esbuild": "^0.25.11",
     "esbuild-plugin-rdi": "^0.0.0",
     "esbuild-plugin-react18": "0.2.6",
     "tsup": "^8.5.0",
